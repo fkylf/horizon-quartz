@@ -16,7 +16,7 @@
                                 expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
-    <!--<bean id="springUtils" class="com.horizonio.quartz.support.spring.SpringUtils"/>-->
+    <bean id="springUtils" class="com.horizonio.quartz.support.spring.SpringUtils"/>
 
     <bean id="schedulerFactoryBean"
           class="org.springframework.scheduling.quartz.SchedulerFactoryBean"/>

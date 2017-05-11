@@ -12,7 +12,7 @@ public class TaskUtils {
     public final static Logger log = Logger.getLogger(TaskUtils.class);
 
     /**
-     * 通过反射调用scheduleJob中定义的方法
+     * 调用scheduleJob中定义的方法
      *
      * @param scheduleJob
      */
